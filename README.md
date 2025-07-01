@@ -1,4 +1,6 @@
 # myfirstrepo
 Author - Muskan Gupta
 <br>
-First github repository
+Repository created for 3rd sem projects
+
+
