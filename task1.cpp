@@ -4,9 +4,7 @@ using namespace std;
 cout<<"HELLO WORLD"<<endl;
 return 0;} */
 
-int main(){
-	int x , y;
-	
+
 	cout<<"ENTER A NUMBER :" <<endl;
 	cin>> x;
 	cout<<"ENTER ANOTHER NUMBER :"<<endl;
@@ -15,7 +13,3 @@ int main(){
 	return 0;
 }
 
-
-
-
-  
