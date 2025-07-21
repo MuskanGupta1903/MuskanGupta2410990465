@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PERSONAL BLOG </title>
+    <header><h1>MY PERSONAL BLOG </h1></header>
+    
+    
+</head>
+<body>
+    <h2>Welcome to my personal blog</h2>
+    <h3>Skills known :</h3>
+    <ol> 
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVA SCRIPT</li>
+    </ol>
+    <h3>References :</h3>
+    <ul>
+         <li><a href="https://www.w3schools.com" >HTML</a href></li>
+        <li><a href="https://www.w3schools.com" >CSS</a href></li>
+        <li><a href="https://www.w3schools.com" >JAVASCRIPT</a href></li>
+          
+    </ul>  
+
+
+    <section>
+        <h3>ABOUT HTML</h3>
+        <p>HTML stands for hyper text markup language , it used as the skeleton of our website.</p>
+
+    </section>
+    <section>
+        <h3>ABOUT CSSL</h3>
+        <p>CSS stands for cascading style sheets it provides visual effects to the website.</p>
+
+    </section>
+
+
+    <section>
+        <h3>ABOUT JAVASCRIPT</h3>
+        <p>JS is used to provide functionality.</p>
+
+    </section>
+
+   <figure><img src="https://vectorseek.com/wp-content/uploads/2023/04/Chitkara-University-Logo-Vector-730x730.jpg" alt="Chitkara University Logo" width="200">
+</figure>
+<figcaption>CHITKARA UNIVERSITY</figcaption>
+
+
+<article>
+  <header>
+    <h1>Understanding Semantic Tags</h1>
+    <nav>
+      <a href="#intro">Intro</a>
+      <a href="#examples">Examples</a>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <p>Semantic tags help define the structure and meaning of your content.</p>
+  </section>
+
+  <section id="examples">
+    <figure>
+      <img src="MOUNTAINS.webp" alt="Mountains">
+      <figcaption>Semantic layout of a webpage</figcaption>
+    </figure>
+  </section>
+
+  <aside>
+    <p>Tip: Use semantic tags for better SEO and accessibility.</p>
+  </aside>
+
+  <footer>
+    <p>Published on <time datetime="2025-07-21">July 21, 2025</time></p>
+  </footer>
+</article>
+
+</body>
+</html>
