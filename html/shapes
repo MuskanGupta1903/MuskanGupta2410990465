@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+
+  <link rel="icon" type="image/x-icon" href="BEACH.jpg" />
+<h1>HTML GRAPHICS AND CODE DISPLAY</h1>
+<title>Graphics</title>
+<svg width="200" height="200">
+  <circle cx="100" cy="100" r="70" fill="yellow" stroke="black" stroke-width="7"></circle>
+</svg>
+<h3><strong>CIRCLE</strong></h3>
+
+
+<svg width="200" height="200">
+  <rect x="20" y="20" width="150" height="100" fill="skyblue" stroke="black" stroke-width="8" />
+</svg>
+
+<h3><strong>RECTANGLE</strong></h3>
+
+
+<svg width="300" height="200">
+  <ellipse cx="150" cy="100" rx="100" ry="50" fill="pink" stroke="black" stroke-width="8" />
+</svg>
+
+<h3><strong>ELLIPSE</strong></h3>
+
+
+<svg width="200" height="200">
+  <polygon points="50,10 90,170 10,190" fill="lightgreen" stroke="black" stroke-width="7" />
+</svg>
+<h3><strong>POLYGON</strong></h3>
+
+<svg width="200" height="100">
+  <line x1="10" y1="50" x2="190" y2="50" stroke="blue" stroke-width="4" />
+</svg>
+<h3><strong>LINE</strong></h3>
+
+
+
+<h3>RESPONSIVE I-FRAME DESIGN</h3>
+
+
+<vice-width, initial-scale="1">
+  <title>Responsive YouTube Embed</title>
+  <style>
+    .video-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* Aspect ratio of 16:9 */
+      height: 0;
+      overflow: hidden;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 50%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Watch THIS VIDEO</h2>
+  <div class="video-container">
+    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
+  </div>
+
+  <h2>Using HTML Entities</h2>
+
+  <p>Less than symbol: &lt;</p>       <!-- Displays: < -->
+  <p>Greater than symbol: &gt;</p>    <!-- Displays: > -->
+  <p>Ampersand: &amp;</p>             <!-- Displays: & -->
+  <p>Double Quote: &quot;</p>          <!-- Displays: " -->
+  <p>Single Quote: &apos;</p>          <!-- Displays: ' -->
+  <p>Copyright: &copy; 2025</p>       <!-- Displays: © 2025 -->
+  <p>Indian Rupee: &#8377;500</p>     <!-- Displays: ₹500 -->
+  <p>Non-breaking space: A&nbsp;B</p> <!-- Adds space between A and B that won’t break into a new line -->
+
+
+
+</body>
+</html>
+
